@@ -1,0 +1,25 @@
+#include <iostream.h>
+
+#include <conio.h>
+
+void main() {
+
+ clrscr(); 
+
+ int age;
+
+ cout << "Enter your age: ";
+
+ cin >> age;
+
+ // Using if statement to check if age is 18 or above
+
+ if (age >= 18) {
+
+ cout << "You are eligible to vote." << endl;
+
+ }
+
+ getch(); 
+
+}
